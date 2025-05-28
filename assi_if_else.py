@@ -11,7 +11,7 @@
 menu = {
     'Burgir':240,
     'goat burgir':300,
-    'Bade ka burgir':400,
+    'Cheese burgir':400,
     'fish burgir':350,
 }
 print(menu)
