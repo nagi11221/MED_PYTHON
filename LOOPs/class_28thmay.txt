@@ -1,0 +1,19 @@
+----------------SCOPES--------------
+*if the variable not found in LOCAL SCOPE ---it will search in GLOBAL SCOPE LEVEL
+* arguments inside a function have local scope 
+* a local variabls scope is confined o fn body
+*a local variable cant be accessed outside  the fn
+*Any referenced variable checks locally first,if not found,checks argument,if not found,
+ fall back to global
+*cant have both local and global references together inside a function in this order
+ Local first,global next
+
+
+ _--------------LOOPS-----------
+****indefinative and definative 
+ 
+
+litres = [1,2,3,4,5]          #definative
+for i in liters:
+   print(f"the bucket is filled with{i}th litter")
+
